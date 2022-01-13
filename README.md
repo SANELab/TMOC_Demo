@@ -42,7 +42,7 @@ Afterwards TMOC can be accessed on <http://localhost:80> and <https://localhost>
 
 ## Publications / Presentations
 
-### BlackHat Arsenal
+### Conference Name
 
 We've been happy to show TMOC in a number of --- sessions.
 
