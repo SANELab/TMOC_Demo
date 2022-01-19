@@ -1,6 +1,6 @@
 <p align="center">
   <!--이미지 삽입-->
-    <!-- <img src="img/TMOC_old.png" alt="FACT Logo" width="625" height="263"/> -->
+    <img src="img/TMOC_old.png" alt="FACT Logo" width="625" height="263"/>
 </p>
 
 # Threat Modeling on Chain (TMOC)
