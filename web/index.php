@@ -11,7 +11,7 @@
 <body>
 <div class="row">
     <div class="col-md-6 offset-md-3">
-        <img class="w-100 mx-auto d-block" style="padding: 50px;padding-top: 14vh;" src="./img/TMOC.png" />
+        <img class="w-100 mx-auto d-block" style="padding: 50px;padding-top: 14vh;" src="./img/TMOC_old.png" />
         <h3 class="text-center">
             <p>TMOC : Threat Modelers On Chain</p>
         </h3>
