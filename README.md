@@ -53,6 +53,6 @@ We've been happy to show TMOC in a number of --- sessions.
 
 ## License
 ```
-    Copy right
+    Copyright (C) 2019 SANELab
 ```
 
