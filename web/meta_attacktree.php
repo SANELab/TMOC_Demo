@@ -37,7 +37,8 @@
     <div class="jumbotron">
         <div class="container">
             <h1>Attack Tree</h1>
-            <h6>Description</h6>
+          <br/>
+            <h6>Create an attack tree according to the collection results of the attack library and threat tab and how to create an attack tree.</h6>
         </div>
     </div>
   <div class="container">
