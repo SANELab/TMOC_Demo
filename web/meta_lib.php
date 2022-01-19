@@ -36,7 +36,8 @@
 		<div class="jumbotron">
 			<div class="container">
 				<h1>Attack Library</h1>
-        <h6>Description</h6>
+				<br/>
+        <h6>Write down what threats will exist against the components within the DFD.</h6>
 			</div>
 		</div>
     <!-- 수정중 -->
