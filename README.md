@@ -12,15 +12,15 @@ TMOC (Threat Modeling on Chain) is a tool that combines a blockchain-based colle
 TMOC is designed as a Block Chain application.
 
 <!-- 표 넣는법 -->
-remix_solidity | Apache2 | c
+remix_solidity | Web Server | c
 ------- | ----------- | --------
-0.5.1+commit<br>contents 2<br>contents 3 | Apache/2.4.29 (Ubuntu)<br>contents 2<br>contents 3 | contents 1<br>contents 2<br>contents 3
+0.5.1+commit<br>contents 2<br>contents 3 | Apache/2.4.29 (Ubuntu)<br>PHP 7.2.24-0ubuntu0.18.04.10 (cli)<br>contents 3 | contents 1<br>contents 2<br>contents 3
 
 <!-- 표 설명 넣는법 -->
 > Table Description
 
 Connect to Solidity
-- You need to access "http://remix.ethereum.org/" and compile the file "/solidity/tmoc.sol".
+- You need to access "http://remix.ethereum.org/" and compile the file [solidity](https://github.com/SANELab/TMOC/solidity) repo.
 - You need to connect the metamask by opening the console window of the remix page and entering the following command.
 ```
 ethereum.request({ method: 'eth_requestAccounts' });
@@ -32,7 +32,37 @@ ethereum.request({ method: 'eth_requestAccounts' });
 :exclamation: **Caution: TMOC is n!!!!!**
 
 ## Installation
-TMOC can be installed and run via remix. See the [solidity](https://github.com/SANELab/TMOC/solidity) repo for more.
+TMOC can be installed Metamask and Webserver.
+
+- Install git
+```
+sudo apt-get install -y git
+```
+
+- Install TMOC
+```
+https://github.com/SANELab/TMOC.git
+```
+
+- Install Apache2 & php
+```
+sudo apt-get install apache2
+apache2 -v
+sudo apt install net-tools
+sudo apt-get install php
+sudo service apache2 restart
+```
+
+- Copy to Apache Directory
+```
+sudo cp -r /TMOC /var/www/html/
+```
+
+-Connect TMOC Web Site
+```
+connet web "http://localhost/TMOC"
+```
+
 
 Test
 
@@ -55,3 +85,4 @@ We've been happy to show TMOC in a number of --- sessions.
 ```
     Copyright (C) 2019 SANELab
 ```
+
