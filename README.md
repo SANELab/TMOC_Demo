@@ -1,7 +1,6 @@
 <p align="center">
   <!--이미지 삽입-->
-  ![Alt text](/TMOC main Image.png)  
-  <img src="/TMOC main Image.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+  <img src="/TMOC main Image.png" width="650px" height="300px" title="TMOC Tool Main Page" alt="TMOCMainPage"></img><br/>
   
   <!-- <img src="src/web_interface/static/FACT_smaller.png" alt="FACT Logo" width="625" height="263"/> -->
 </p>
