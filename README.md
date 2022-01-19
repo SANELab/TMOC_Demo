@@ -18,9 +18,14 @@ remix_solidity | b | c
 
 <!-- 표 설명 넣는법 -->
 > Table Description
-Test
-- Contents 1
-- Contents 2
+
+Connect to Solidity
+- You need to access "http://remix.ethereum.org/" and compile the file "/solidity/tmoc.sol".
+- You need to connect the metamask by opening the console window of the remix page and entering the following command.
+```
+ethereum.request({ method: 'eth_requestAccounts' });
+```
+
 - Contents 3
 
 <!-- 주의사항 -->
