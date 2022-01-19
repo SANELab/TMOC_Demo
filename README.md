@@ -12,9 +12,9 @@ TMOC (Threat Modeling on Chain) is a tool that combines a blockchain-based colle
 TMOC is designed as a Block Chain application.
 
 <!-- 표 넣는법 -->
-remix_solidity | b | c
+remix_solidity | Apache2 | c
 ------- | ----------- | --------
-0.5.1+commit<br>contents 2<br>contents 3 | contents 1<br>contents 2<br>contents 3 | contents 1<br>contents 2<br>contents 3
+0.5.1+commit<br>contents 2<br>contents 3 | Apache/2.4.29 (Ubuntu)<br>contents 2<br>contents 3 | contents 1<br>contents 2<br>contents 3
 
 <!-- 표 설명 넣는법 -->
 > Table Description
