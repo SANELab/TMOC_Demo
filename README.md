@@ -22,6 +22,6 @@ We've been happy to show TMOC in a number of --- sessions.
 
 ### License
 ```
-    Copyright (C) 2019 SANELab
+    Copyright (C) 2022 SANELab
 ```
 
