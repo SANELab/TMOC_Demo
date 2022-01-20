@@ -21,7 +21,7 @@ Threat modeling is a risk-based approach to designing security systems based on 
 
 We've been happy to show TMOC in a number of --- sessions.
 
-#### License
+### License
 ```
     Copyright (C) 2019 SANELab
 ```
