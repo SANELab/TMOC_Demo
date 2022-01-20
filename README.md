@@ -5,6 +5,7 @@
 Threat modeling is a risk-based approach to designing security systems based on threat identification for threat mitigation. Threat modeling is a "<em>team sport</em>" because it requires the knowledge and skills of different teams, all inputs can be considered of equal value. It is a framework that integrates the threat modeling process on a larger scale through blockchains that enable large-scale collaboration.
 
 
+
 ### Execution via WebBrowser
 <p align="center">
   <!--이미지 삽입-->
@@ -15,10 +16,8 @@ Threat modeling is a risk-based approach to designing security systems based on 
 
 
 
-
-#### Publications / Presentations
-
-##### Conference Name
+### Publications / Presentations
+#### [Conference Name]
 
 We've been happy to show TMOC in a number of --- sessions.
 
