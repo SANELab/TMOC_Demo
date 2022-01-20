@@ -1,11 +1,11 @@
 # TMOC
 
-<em>TMOC</em> (Threat Modeling on Chain) is a tool that combines threat modeling with a blockchain-based collective intelligence system developed as a blockchain-based Web3 in the form of a decentralized web.
+<strong>TMOC</strong> (Threat Modeling on Chain) is a tool that combines threat modeling with a blockchain-based collective intelligence system developed as a blockchain-based Web3 in the form of a decentralized web.
 
 Threat modeling is a risk-based approach to designing security systems based on threat identification for threat mitigation. Threat modeling is a "team sport" because it requires the knowledge and skills of different teams, all inputs can be considered of equal value. It is a framework that integrates the threat modeling process on a larger scale through blockchains that enable large-scale collaboration.
 
 
-#### Execution via WebBrowser
+### Execution via WebBrowser
 <p align="center">
   <!--이미지 삽입-->
   <img src="/TMOC main Image.png" title="TMOC Tool Main Page" alt="TMOCMainPage"></img><br/>
