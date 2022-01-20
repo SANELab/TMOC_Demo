@@ -1,3 +1,7 @@
+# TMOC
+
+TMOC (Threat Modeling on Chain) is a tool that combines a blockchain-based collective intelligence system and threat modeling. 
+
 <p align="center">
   <!--이미지 삽입-->
   <img src="/TMOC main Image.png" title="TMOC Tool Main Page" alt="TMOCMainPage"></img><br/>
@@ -5,9 +9,7 @@
   <!-- <img src="src/web_interface/static/FACT_smaller.png" alt="FACT Logo" width="625" height="263"/> -->
 </p>
 
-# Threat Modeling on Chain (TMOC)
 
-TMOC (Threat Modeling on Chain) is a tool that combines a blockchain-based collective intelligence system and threat modeling. 
 
 ## Requirements
 
