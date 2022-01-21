@@ -9,7 +9,7 @@ Threat modeling is a risk-based approach to designing security systems based on 
 ### Execution via WebBrowser
 
 <p align="center">
-  <img src="/TMOC main Image.png" title="TMOC Tool Main Page" alt="TMOCMainPage"></img><br/>
+  <img src="/TMOC_main.png" title="TMOC Tool Main Page" alt="TMOCMainPage"></img><br/>
 </p>
 
 
