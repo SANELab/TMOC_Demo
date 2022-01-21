@@ -1,8 +1,3 @@
-<p align="center">
-  <!--이미지 삽입-->
-    <img src="img/TMOC_old.png" alt="FACT Logo" width="625" height="263"/>
-</p>
-
 # Threat Modeling on Chain (TMOC)
 
 TMOC (Threat Modeling on Chain) is a tool that combines a blockchain-based collective intelligence system and threat modeling. 
@@ -10,15 +5,15 @@ TMOC (Threat Modeling on Chain) is a tool that combines a blockchain-based colle
 ## Requirements
 
 TMOC is designed as a Block Chain application.
+<!--
 
-<!-- 표 넣는법 -->
 remix_solidity | Web Server | c
 ------- | ----------- | --------
 0.5.1+commit<br>contents 2<br>contents 3 | Apache/2.4.29 (Ubuntu)<br>PHP 7.2.24-0ubuntu0.18.04.10 (cli)<br>contents 3 | contents 1<br>contents 2<br>contents 3
 
-<!-- 표 설명 넣는법 -->
-> Table Description
 
+> Table Description
+-->
 Connect to Solidity
 - You need to access "http://remix.ethereum.org/" and compile the file [solidity](https://github.com/SANELab/TMOC/solidity) repo.
 - You need to connect the metamask by opening the console window of the remix page and entering the following command.
@@ -64,15 +59,14 @@ connet web "http://localhost/TMOC"
 ```
 
 
-Test
-
 ## Usage <!-- TMOC 실행하는 방법 -->
+<!--
 You can start TMOC by executing the -----.
 
 ```sh
 $ ./command
 ```
-
+-->
 Afterwards TMOC can be accessed on <http://localhost:80> and <https://localhost> (nginx), respectively.  
 
 ## Publications / Presentations
@@ -83,6 +77,6 @@ We've been happy to show TMOC in a number of --- sessions.
 
 ## License
 ```
-    Copyright (C) 2019 SANELab
+    Copyright (C) 2022 SANELab
 ```
 
