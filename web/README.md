@@ -23,9 +23,9 @@ ethereum.request({ method: 'eth_requestAccounts' });
 
 - Contents 3
 
-<!-- 주의사항 -->
+<!-- 주의사항 
 :exclamation: **Caution: TMOC is n!!!!!**
-
+-->
 ## Installation
 TMOC can be installed Metamask and Webserver.
 
@@ -68,13 +68,13 @@ $ ./command
 ```
 -->
 Afterwards TMOC can be accessed on <http://localhost:80> and <https://localhost> (nginx), respectively.  
-
+<!--
 ## Publications / Presentations
 
 ### Conference Name
 
 We've been happy to show TMOC in a number of --- sessions.
-
+-->
 ## License
 ```
     Copyright (C) 2022 SANELab
