@@ -12,9 +12,6 @@ include('navbar.php');
   <script type="text/javascript" src="./js/lib/moment_locale.js"></script>
   <script type="text/javascript" src="./js/abi.js"></script>
   <script type="text/javascript" src="./js/app_connect.js"></script>
-  <script type="text/javascript" src="./js/meta_app_threat.js"></script>
-  <script type="text/javascript" src="./js/meta_app_library.js"></script>
-  <script type="text/javascript" src="./js/app_tree.js"></script>
   <script type="text/javascript">
   </script>
 </head>
@@ -32,8 +29,8 @@ include('navbar.php');
           <span class="card-title">
             <div class="text-center">
   		        <h4><strong>Token Address(Ethereum Ropsten Test Net)</strong></h4>
-  		        <a href='https://ropsten.etherscan.io/address/0xcec086b777a3a9abcf2975dce5bf0541be7b2e29'>
-              https://ropsten.etherscan.io/address/0xcec086b777a3a9abcf2975dce5bf0541be7b2e29
+  		        <a href='https://ropsten.etherscan.io/address/0x0xEB8e9539687BaD3bBf510592d658C35F1566CC70'>
+              https://ropsten.etherscan.io/address/0xEB8e9539687BaD3bBf510592d658C35F1566CC70
               </a>
             </div>
           </span>
@@ -45,7 +42,6 @@ include('navbar.php');
     <div role="tabpanel" class="tab-pane config-section active" id="fields">
       <form method="POST" autocomplete="off" class="w-100">
         <h5>Transaction List</h5>
-        <!-- 공격 라이브러리의 트랜잭션 목록을 app_library.js 파일의 showLibraryList() 함수를 통해 출력 -->
         <ul class="nav nav-tabs mt-3" role="tablist">
           <li class="nav-item active">
             <a class="nav-link active" href="#attack_library_transaction_list" role="tab" data-toggle="tab">Attack Library Transaction List</a>
@@ -65,18 +61,24 @@ include('navbar.php');
                 <table class="table table-striped">
                   <thead>
                     <tr>
-                      <td><b>User</b></td>
-                      <td><b>Name</b></td>
-                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Student ID</b></td>
-                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Wallet Address</b></td>
+                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Library Number</b></td>
+                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Related Component</b></td>
+                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Attack Type</b></td>
+                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Library Contents</b></td>
+                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Reference URL</b></td>
+                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Writer</b></td>
+                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>score</b></td>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>test1</td>
-                      <td>test1</td>
-                      <td>test1</td>
-                      <td>test1</td>
+                        <td><?php echo $row["library_number"]; ?></td>
+                        <td><?php echo $row["library_element"]; ?></td>
+                        <td><?php echo $row["library_stride"]; ?></td>
+                        <td><?php echo $row["library_contents"]; ?></td>
+                        <td><?php echo $row["library_url"]; ?></td>
+                        <td><?php echo $row["library_writer"]; ?></td>
+                        <td><?php echo $row["library_score"]; ?></td>
                     </tr>
                   </tbody>
                 </table>
@@ -89,18 +91,24 @@ include('navbar.php');
                 <table class="table table-striped">
                   <thead>
                     <tr>
-                      <td><b>User</b></td>
-                      <td><b>Name</b></td>
-                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Student ID</b></td>
-                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Wallet Address</b></td>
+                    <td class="d-none d-md-table-cell d-lg-table-cell"><b>Threat Number</b></td>
+                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Element Name</b></td>
+                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Threat Contents</b></td>
+                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Threat Reason</b></td>
+                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Library Number</b></td>
+                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Writer</b></td>
+                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Score</b></td>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>test2</td>
-                      <td>test2</td>
-                      <td>test2</td>
-                      <td>test2</td>
+                    <td><?php echo $row["threat_number"]; ?></td>
+                        <td><?php echo $row["element_name"]; ?></td>
+                        <td><?php echo $row["threat_contents"]; ?></td>
+                        <td><?php echo $row["threat_reason"]; ?></td>
+                        <td><?php echo $row["library_number"]; ?></td>
+                        <td><?php echo $row["writer"]; ?></td>
+                        <td><?php echo $row["threat_score"]; ?></td>
                     </tr>
                   </tbody>
                 </table>
@@ -113,18 +121,18 @@ include('navbar.php');
                 <table class="table table-striped">
                   <thead>
                     <tr>
-                      <td><b>User</b></td>
-                      <td><b>Name</b></td>
-                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Student ID</b></td>
-                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Wallet Address</b></td>
+                    <td class="d-none d-md-table-cell d-lg-table-cell"><b>Tree Number</b></td>
+                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Tree Hash</b></td>
+                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Writer</b></td>
+                      <td class="d-none d-md-table-cell d-lg-table-cell"><b>Score</b></td>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>test3</td>
-                      <td>test3</td>
-                      <td>test3</td>
-                      <td>test3</td>
+                      <td><?php echo $row["tree_number"]; ?></td>
+                      <td><?php echo $row["tree_hash"]; ?></td>
+                      <td><?php echo $row["tree_uploader"]; ?></td>
+                      <td><?php echo $row["tree_score"]; ?></td>
                     </tr>
                   </tbody>
                 </table>
