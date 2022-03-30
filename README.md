@@ -13,6 +13,11 @@ Threat modeling is a risk-based approach to designing security systems based on 
 </p>
 
 
+### Metamask
+You must enter the following command using the Chrome administrator console function.
+(Metamask wallet address and TMoC website linkage)
+
+ethereum.request({ method: 'eth_requestAccounts' });
 
 ### Publications / Presentations
 #### [Conference Name]
